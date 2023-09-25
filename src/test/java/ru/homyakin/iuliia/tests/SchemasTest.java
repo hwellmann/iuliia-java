@@ -1,8 +1,10 @@
 package ru.homyakin.iuliia.tests;
 
 import java.io.IOException;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
 import ru.homyakin.iuliia.Schemas;
 import ru.homyakin.iuliia.Translator;
 
@@ -48,6 +50,13 @@ public class SchemasTest {
         var translator = new Translator(Schemas.BS_2979_ALT);
         var sentence = translator.translate("Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю");
         Assertions.assertEquals("Yuliya, s\"esh' eshche etikh myagkikh frantsuzskikh bulok iz Ioshkar-Oly, da vypei altaiskogo chayu", sentence);
+    }
+
+    @Test
+    public void dudenTest() throws IOException {
+        var translator = new Translator(Schemas.DUDEN);
+        var sentence = translator.translate("Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю");
+        Assertions.assertEquals("Julija, sjesch jeschtscho etich mjagkich franzusskich bulok is Joschkar-Oly, da wypej altajskogo tschaju", sentence);
     }
 
     @Test

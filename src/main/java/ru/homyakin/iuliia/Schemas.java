@@ -13,6 +13,7 @@ public enum Schemas {
     BGN_PCGN_ALT("bgn_pcgn_alt.json"),
     BS_2979("bs_2979.json"),
     BS_2979_ALT("bs_2979_alt.json"),
+    DUDEN("duden.json"),
     GOST_779("gost_779.json"),
     GOST_779_ALT("gost_779_alt.json"),
     GOST_7034("gost_7034.json"),
