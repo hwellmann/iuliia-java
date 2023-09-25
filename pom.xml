@@ -2,13 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ru.homyakin</groupId>
+    <groupId>com.northdata</groupId>
     <artifactId>iuliia-java</artifactId>
     <version>1.9-SNAPSHOT</version>
 
     <name>iuliia-java</name>
     <description>Transliterate Cyrillic → Latin in every possible way</description>
-    <url>https://github.com/Homyakin/iuliia-java</url>
+    <url>https://github.com/northdata/iuliia-java</url>
 
     <licenses>
         <license>
@@ -19,9 +19,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/Homyakin/iuliia-java</url>
-        <connection>scm:git:git://github.com/Homyakin/iuliia-java</connection>
-        <developerConnection>scm:git:git@github.com:Homyakin/iuliia-java</developerConnection>
+        <url>https://github.com/northdata/iuliia-java</url>
+        <connection>scm:git:git://github.com/northdata/iuliia-java</connection>
+        <developerConnection>scm:git:git@github.com:northdata/iuliia-java</developerConnection>
     </scm>
 
     <developers>
@@ -29,6 +29,11 @@
             <id>Homyakin</id>
             <name>Anton Lavrentev</name>
             <url>homyakin.ru</url>
+        </developer>
+        <developer>
+            <id>hwellmann</id>
+            <name>Harald Wellmann</name>
+            <url>northdata.de</url>
         </developer>
     </developers>
 
