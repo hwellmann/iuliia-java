@@ -1,5 +1,7 @@
 # `Iuliia`
 
+**NOTE:** North Data fork including PRs not merged by upstream
+
 > Transliterate Cyrillic → Latin in every possible way
 
 Transliteration means representing Cyrillic data (mainly names and geographic locations) with Latin letters. It is used for international passports, visas, green cards, driving licenses, mail and goods delivery etc.
